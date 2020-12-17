@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+header {
+  height: 60px;
+  background-color: black;
+  color: white;
+}
+
+header h1 {
+  line-height: 60px;
+}
+
+main {
+  background-color: #555;
+  min-height: calc(100vh - 60px);
+  padding: 50px 0;
+}
+
+main .disks .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .disks .container .card {
+  width: 250px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  margin: 20px;
+}
+
+main .disks .container .card img {
+  max-width: 100%;
+}
+
+main .disks .container .card .year,
+main .disks .container .card .author {
+  display: block;
+}
+

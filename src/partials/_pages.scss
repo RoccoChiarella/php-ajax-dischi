@@ -1,0 +1,24 @@
+main{
+    background-color: #555;
+    min-height: calc(100vh - 60px);
+    padding: 50px 0;
+    .disks{
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            .card{
+                width: 250px;
+                padding: 10px;
+                background-color: $backgournd_color;
+                color: $text_color;
+                margin: 20px;
+                img{
+                    max-width: 100%;
+                }
+                .year, .author{
+                    display: block;
+                }
+            }
+        }
+    }
+}
